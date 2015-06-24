@@ -24,20 +24,20 @@
 #     *needs wget*
 #
 
-squidpath  = "/usr/sbin/squid3"
-tarpath    = "/bin/tar"
-chownpath  = "/bin/chown"
-httpget    = "/usr/bin/wget"
-wgetlogdir = "/usr/local/ufdbguard/logs"
+squidpath="/usr/sbin/squid3"
+tarpath="/bin/tar"
+chownpath="/bin/chown"
+httpget="/usr/bin/wget"
+wgetlogdir="/usr/local/ufdbguard/logs"
 
-shallalist = "http://www.shallalist.de/Downloads/shallalist.tar.gz"
+shallalist="http://www.shallalist.de/Downloads/shallalist.tar.gz"
 
-dbhome     = "/usr/local/ufdbguard/blacklists"     # like in squidGuard.conf
-squidGuardowner = "proxy:proxy"
+dbhome="/usr/local/ufdbguard/blacklists"     # like in squidGuard.conf
+squidGuardowner="proxy:proxy"
 
 ##########################################
 
-workdir    = "/usr/local/ufdbguard/tmp"
+workdir="/usr/local/ufdbguard/tmp"
 
 if [ ! -d $workdir ]; then
   mkdir -p $workdir
