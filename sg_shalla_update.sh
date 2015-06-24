@@ -11,7 +11,7 @@
 # checks; reduced the diff files to the necessary content.
 # Modified by Patrick Ryon (slashdoom): included code to
 # mkdir if the catagory directoroes and subdirectories
-# don't exist.
+# don't exist and ufdbGuard.
 #
 #--------------------------------------------------
 # little script (for crond)
