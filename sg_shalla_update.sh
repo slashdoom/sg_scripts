@@ -10,8 +10,8 @@
 # Modified by Chris Kronberg: included loop; added some more
 # checks; reduced the diff files to the necessary content.
 # Modified by Patrick Ryon (slashdoom): included code to
-# mkdir if the catagory directoroes and subdirectories
-# don't exist and ufdbGuard.
+# mkdir if the catagory directories and subdirectories
+# don't exist; reconfigured for ufdbGuard.
 #
 #--------------------------------------------------
 # little script (for crond)
